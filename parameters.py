@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.29
 # Mathematica version: 10.3.1 for Mac OS X x86 (64-bit) (December 9, 2015)
-# Date: Fri 10 Nov 2017 17:31:59
+# Date: Thu 14 Dec 2017 12:51:27
 
 
 
@@ -245,7 +245,7 @@ MH = Parameter(name = 'MH',
 MZp = Parameter(name = 'MZp',
                 nature = 'external',
                 type = 'real',
-                value = 3000.,
+                value = 500.,
                 texname = '\\text{MZp}',
                 lhablock = 'MASS',
                 lhacode = [ 32 ])
@@ -285,7 +285,7 @@ WH = Parameter(name = 'WH',
 WZp = Parameter(name = 'WZp',
                 nature = 'external',
                 type = 'real',
-                value = 89.59,
+                value = 50,
                 texname = '\\text{WZp}',
                 lhablock = 'DECAY',
                 lhacode = [ 32 ])
