@@ -1,6 +1,6 @@
 # This file was automatically created by FeynRules 2.3.29
 # Mathematica version: 10.3.1 for Mac OS X x86 (64-bit) (December 9, 2015)
-# Date: Fri 10 Nov 2017 17:31:59
+# Date: Thu 14 Dec 2017 12:51:27
 
 
 from object_library import all_couplings, Coupling
@@ -159,7 +159,7 @@ R2GC_127_37 = Coupling(name = 'R2GC_127_37',
 
 R2GC_127_38 = Coupling(name = 'R2GC_127_38',
                        value = '(delbs**2*complex(0,1)*G**2*gb**2)/(24.*cmath.pi**2)',
-                       order = {'BSM':4,'QCD':2})
+                       order = {'BSM':2,'QCD':2})
 
 R2GC_128_39 = Coupling(name = 'R2GC_128_39',
                        value = '(ee**2*complex(0,1)*G**2)/(96.*cmath.pi**2*sw**2)',
@@ -303,7 +303,7 @@ R2GC_175_73 = Coupling(name = 'R2GC_175_73',
 
 R2GC_179_74 = Coupling(name = 'R2GC_179_74',
                        value = '-(delbs*complex(0,1)*G**2*gb)/(6.*cmath.pi**2)',
-                       order = {'BSM':2,'QCD':2})
+                       order = {'BSM':1,'QCD':2})
 
 R2GC_180_75 = Coupling(name = 'R2GC_180_75',
                        value = '(complex(0,1)*G**2*MS)/(6.*cmath.pi**2)',
@@ -671,15 +671,15 @@ UVGC_178_55 = Coupling(name = 'UVGC_178_55',
 
 UVGC_179_56 = Coupling(name = 'UVGC_179_56',
                        value = {-1:'( -(delbs*complex(0,1)*G**2*gb)/(12.*cmath.pi**2) if MB else (delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2) )',0:'( (-5*delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2) + (delbs*complex(0,1)*G**2*gb*reglog(MB/MU_R))/(4.*cmath.pi**2) if MB else -(delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2) ) + (delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2)'},
-                       order = {'BSM':2,'QCD':2})
+                       order = {'BSM':1,'QCD':2})
 
 UVGC_179_57 = Coupling(name = 'UVGC_179_57',
                        value = {-1:'( -(delbs*complex(0,1)*G**2*gb)/(12.*cmath.pi**2) if MS else (delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2) )',0:'( (-5*delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2) + (delbs*complex(0,1)*G**2*gb*reglog(MS/MU_R))/(4.*cmath.pi**2) if MS else -(delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2) ) + (delbs*complex(0,1)*G**2*gb)/(24.*cmath.pi**2)'},
-                       order = {'BSM':2,'QCD':2})
+                       order = {'BSM':1,'QCD':2})
 
 UVGC_179_58 = Coupling(name = 'UVGC_179_58',
                        value = {-1:'-(delbs*complex(0,1)*G**2*gb)/(12.*cmath.pi**2)'},
-                       order = {'BSM':2,'QCD':2})
+                       order = {'BSM':1,'QCD':2})
 
 UVGC_180_59 = Coupling(name = 'UVGC_180_59',
                        value = {-1:'( (complex(0,1)*G**2*MS)/(6.*cmath.pi**2) if MS else -(complex(0,1)*G**2*MS)/(12.*cmath.pi**2) ) + (complex(0,1)*G**2*MS)/(3.*cmath.pi**2)',0:'( (3*complex(0,1)*G**2*MS)/(4.*cmath.pi**2) - (complex(0,1)*G**2*MS*reglog(MS/MU_R))/cmath.pi**2 if MS else (complex(0,1)*G**2*MS)/(12.*cmath.pi**2) ) - (complex(0,1)*G**2*MS)/(12.*cmath.pi**2)'},
